@@ -1,7 +1,7 @@
 ALPHABET_RU = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
 ALPHABET_EN = "abcdefghijklmnopqrstuvwxyz"
 lang = input("Выберите язык - RU/EN:")
-if lang =="RU":
+if lang =="RU" or lang =="ru":
     alphabet = ALPHABET_RU
 else:
     alphabet = ALPHABET_EN
